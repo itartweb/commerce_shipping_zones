@@ -1,0 +1,6 @@
+commerce_shipping_zones.configuration:
+  title: 'Shipping Zones'
+  route_name: commerce_shipping_zones.configuration
+  parent: 'commerce_shipping.configuration'
+  description: 'Manage your shipping zones'
+  weight: 9

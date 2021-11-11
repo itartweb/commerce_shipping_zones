@@ -1,0 +1,9 @@
+services:
+  commerce_shipping_zones.rate:
+    class: Drupal\commerce_shipping_zones\ShippingZonesService
+
+  commerce_shipping_zones.late_order_processor:
+    class: Drupal\commerce_shipping_zones\LateOrderProcessor
+    arguments: ['@commerce_shipping.order_manager']
+    tags:
+      - { name: commerce_order.order_processor, priority: 1100 }

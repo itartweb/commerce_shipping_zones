@@ -1,0 +1,10 @@
+name: Commerce Shipping By Zones
+type: module
+description: 'Provides Shipping By Zones integration with Commerce Shipping.'
+package: Commerce (shipping)
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:commerce
+  - drupal:commerce_shipping
+  - commerce_currency_resolver:commerce_currency_resolver

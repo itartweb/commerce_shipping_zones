@@ -1,0 +1,7 @@
+commerce_shipping_zones.configuration:
+  path: '/admin/commerce/config/shipping/zones'
+  defaults:
+    _form: '\Drupal\commerce_shipping_zones\Form\SettingsForm'
+    _title: 'Shipping Zones'
+  requirements:
+    _permission: 'access commerce administration pages'
